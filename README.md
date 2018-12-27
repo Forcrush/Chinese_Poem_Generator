@@ -21,7 +21,6 @@
 * `static` 文件夹，网页端使用到的 css 样式和一些 js 代码，用于渲染网页
 * `templates` 文件夹，html 网页代码，通过 Django 注入数据，作为前端 UI
 * `db.sqlite3`，Django 默认的一个数据库设置
-* `initialize.py`，初始化项目，预准备数据
 * `manage.py`，Django Web 运行的入口
 * `poetry.py`，包含模型构建，数据处理，训练和测试调度接口
 
