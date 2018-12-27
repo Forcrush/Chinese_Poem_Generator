@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>中国古诗词生成网页</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Vincent Garreau" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" media="screen" href="../static/css/style.css">
+  <link rel="icon" type="image/png" sizes="48x48" href="../static/img/icon.png">
+</head>
+
+<body>
+<nav role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo"><img src="../static/img/logo.png" height="66px" width="1349px"> </a>
+    </div>
+</nav>
+
+<div id="particles-js">
+   <div class="d1" id="div1">
+     <button class="button button1" id="btn-submit1"><span style="font-family: 楷体;"> 即兴作诗 </span></button>
+   </div>
+   <div class="d1" id="div2">
+     <input placeholder="建议输入双数文本" id="head" type="text" style= "background-color:transparent; border:0; color:white;text-align: right; font-family: 楷体; font-size: 12pt;">
+     <button class="button button1" id="btn-submit2"><span style="font-family: 楷体;"> 藏头诗 </span></button>
+     <br>
+     <p id="error_msg" style="font-family: 楷体;"></p>
+   </div>
+   <div class="d2" id="div3">
+      <br>
+      <p id="poem1"></p>
+      <p id="poem2"></p>
+      <p id="poem3"></p>
+      <p id="poem4"></p>
+      <p id="poem5"></p>
+      <p id="poem6"></p>
+      <p id="poem7"></p>
+      <p id="poem8"></p>
+   </div>
+</div>
+
+
+<!-- scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="../static/js/particles.min.js"></script>
+<script src="../static/js/app.js"></script>
+<script src="../static/js/poem.js"></script>
+
+</body>
+</html>
